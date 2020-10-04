@@ -3,9 +3,7 @@
 Ventura OS is an open-source web desktop platform built with web technologies like Javascript and Node js
 
 # Installation
-OS.js runs on http://127.0.0.1:3000/ by default.
-
-## Demo
+Ventura runs on http://127.0.0.1:3000/ by default.
 
 ```
 git clone https://github.com/Ventura-OS/Ventura-Alpha.git
