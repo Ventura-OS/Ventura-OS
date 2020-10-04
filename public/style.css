@@ -3,3 +3,24 @@ body {
     font-family:  'Space Mono, Arial', monospace;
     font: monospace;
 }
+* {
+    transition-duration: .2s;
+}
+#taskbar {
+    height: 45px;
+    background-color: #0f0c1c;
+}
+#desk {
+    background-image: url(imgs/background.png);
+    background-color: #22144a;
+    background-size: 80px;
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: content-box;
+}
+#startbtn > img {
+    width: 45px;
+}
+#startbtn > img:hover {
+    background-color: #22144a;
+}
