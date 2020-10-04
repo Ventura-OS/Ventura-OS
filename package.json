@@ -1,0 +1,21 @@
+{
+  "name": "ventura_os",
+  "version": "1.0.0",
+  "description": "a node, javascript, web based os",
+  "main": "system.js",
+  "scripts": {
+    "start": "node system.js",
+    "devstart": "nodemon system.js"
+  },
+  "keywords": [
+    "os"
+  ],
+  "author": "imagineee",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
