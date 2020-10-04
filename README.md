@@ -24,3 +24,7 @@ To start main:
 ```
 npm start
 ```
+
+# Licence
+
+[GNU 3.0](https://github.com/Ventura-OS/Ventura-Alpha/blob/master/LICENSE)
