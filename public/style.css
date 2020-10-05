@@ -1,7 +1,11 @@
+@font-face {
+    font-family: Win95;
+    src: url(files/W95FA.otf);
+}
 body {
     margin: 0px;
-    font-family:  'Space Mono, Arial', monospace;
-    font: monospace;
+    font-family:  'Win95, Space Mono, Arial', Win95, monospace;
+    font: Win95, monospace;
 }
 * {
     transition-duration: .2s;
@@ -9,6 +13,9 @@ body {
 #taskbar {
     height: 45px;
     background-color: #0f0c1c;
+}
+#taskbar:hover {
+    background-color: #120e21;
 }
 #desk {
     background-image: url(imgs/background.png);
@@ -18,9 +25,34 @@ body {
     background-position: center;
     background-origin: content-box;
 }
+#startbtn {
+    width: 45px;
+    height: 45px;
+}
 #startbtn > img {
     width: 45px;
 }
 #startbtn > img:hover {
-    background-color: #22144a;
+    background-color: #18142e;
+}
+#startmenu {
+    width: 350px;
+    font-size: 20px;
+    background-color: #0f0c1c;
+    border-radius: 0px 0px 5px lightgrey;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+}
+#startmenu:hover {
+    background-color: #18142e;
+}
+.hstartm {
+    display: none;
+}
+.sstartm {
+    display: inline-flex;
+    position: absolute;
+    top: 45px;
+    left: 0;
 }
