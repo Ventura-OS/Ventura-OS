@@ -9,20 +9,18 @@
         <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
         <link rel='icon' href='Favicon/favicon.ico' type='image/x-icon'>
-
-        <link rel="stylesheet" type="text/css" href="style.css" >
     </head>
     <body>
-        <div id="taskbar">
-            <span  id="startbtn"><img src="imgs/logo.png"></span>
-            <section id="startmenu" class="hstartm">
-                Welocme To Ventura OS
-            </section>
-            <span id="batt"></span>
-            <div id="bat"><div id="batlevel"></div></div>
-        </div>
-        <div id="desk"></div>
-        <script src="ClientInfo.js"></script>
-        <script src="app.js"></script>
+        <audio id="startup" autoplay controls>
+            <source src="files/startup.mp3" type="audio/mpeg">
+        </audio>
+        <!--<script>
+            window.onload = function() {
+                start()
+            }
+            function start() {
+                document.getElementById("startup").play();
+            }
+        </script>-->
     </body>
 </html>

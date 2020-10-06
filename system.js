@@ -10,10 +10,8 @@ app.listen(port, () => {
 app.use(express.static('public'))
 
 app.get('/', function(req, res){
-    app.use(express.static('public'))
-    res.sendFile('index.html', { root: __dirname });
-  });
+  res.sendFile('public/index.html', { root: __dirname });
+});
 app.get('*', function(req, res){
-    app.use(express.static('public'))
-    res.sendFile('public/error.html', { root: __dirname });
-  });
+  res.sendFile('public/error.html', { root: __dirname });
+});
