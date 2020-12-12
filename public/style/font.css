@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Win95;
+    src: url(../ui/fonts/W95FA.otf);
+}
+@font-face {
+    font-family: plex;
+    src: url(../ui/fonts/IBMPlexMono-Bold.ttf);
+}
+@font-face {
+    font-family: plex-light;
+    src: url(../ui/fonts/IBMPlexMono-Light.ttf);
+}
+@font-face {
+    font-family: pixel46;
+    src: url(../ui/fonts/pixel46.ttf);
+}

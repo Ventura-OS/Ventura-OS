@@ -1,10 +1,7 @@
-@font-face {
-    font-family: Win95;
-    src: url(files/W95FA.otf);
-}
 body {
     margin: 0px;
-    font-family:  'Win95, Space Mono, Arial', Win95, monospace;
+    /*font-family:  'Win95, Space Mono, Arial', Win95, monospace;*/
+    font-family: plex ,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font: Win95, monospace;
 }
 * {
@@ -19,7 +16,7 @@ body {
     background-color: #120e21;
 }
 #desk {
-    background-image: url(imgs/background.png);
+    background-image: url(imgs/repeatable-background.png);
     background-color: #22144a;
     background-size: 80px;
     background-attachment: fixed;
@@ -32,6 +29,7 @@ body {
 }
 #startbtn > img {
     width: 45px;
+    padding: 0 5px 0 5px;
 }
 #startbtn > img:hover {
     background-color: #18142e;
