@@ -7,14 +7,6 @@ body {
 * {
     transition-duration: .2s;
 }
-#taskbar {
-    height: 45px;
-    background-color: #0f0c1c;
-    color: white;
-}
-#taskbar:hover {
-    background-color: #120e21;
-}
 #desk {
     background-image: url(imgs/repeatable-background.png);
     background-color: #22144a;
@@ -22,62 +14,4 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-origin: content-box;
-}
-#startbtn {
-    width: 45px;
-    height: 45px;
-}
-#startbtn > img {
-    width: 45px;
-    padding: 0 5px 0 5px;
-}
-#startbtn > img:hover {
-    background-color: #18142e;
-}
-#startmenu {
-    width: 350px;
-    font-size: 20px;
-    background-color: #0f0c1c;
-    border-radius: 0px 0px 5px lightgrey;
-    color: white;
-    border-radius: 3px;
-    padding: 10px;
-}
-#startmenu:hover {
-    background-color: #18142e;
-}
-.hstartm {
-    display: none;
-}
-.sstartm {
-    display: inline-flex;
-    position: absolute;
-    top: 45px;
-    left: 0;
-}
-#bat {
-    position: absolute;
-    top: 0;
-    margin: 8px;
-    right: 0;
-    width: 50px;
-    height: 20px;
-    border: 3px solid white;
-    border-radius: 5px;
-}
-#batlevel {
-    color: white;
-    width: 100%;
-    height: 99%;
-    background-color: white;
-    border-radius: 1px;
-    transition: .2s;
-}
-#batt {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 8px 70px 8px 8px;
-    float: right;
-    font-size: 20px;
 }

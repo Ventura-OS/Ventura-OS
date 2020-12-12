@@ -1,5 +1,5 @@
 setInterval(function(){
-    document.getElementById("desk").style.height = cijs("sizeScreenH") - 188 + "px"
+    document.getElementById("desk").style.height = cijs("sizeScreenH") - 173 + "px"
     navigator.getBattery().then(function(battery) {
         var level = battery.level;
         //console.log(level);

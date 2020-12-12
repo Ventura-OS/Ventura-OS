@@ -1,0 +1,9 @@
+#taskbar {
+    height: 30px;
+    background-color: #0f0c1c;
+    color: white;
+    -webkit-user-select: none;
+}
+#taskbar:hover {
+    background-color: #120e21;
+}

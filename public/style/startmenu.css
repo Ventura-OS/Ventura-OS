@@ -1,0 +1,32 @@
+#startbtn {
+    width: 45px;
+    height: 45px;
+}
+#startbtn > img {
+    width: 29px;
+    padding: 0 6px 0 5px;
+}
+#startbtn > img:hover {
+    background-color: #18142e;
+}
+#startmenu {
+    width: 350px;
+    font-size: 20px;
+    background-color: #0f0c1c;
+    border-radius: 0px 0px 5px lightgrey;
+    color: white;
+    border-radius: 0px;
+    padding: 10px;
+}
+#startmenu:hover {
+    background-color: #120e21;
+}
+.hstartm {
+    display: none;
+}
+.sstartm {
+    display: inline-flex;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
